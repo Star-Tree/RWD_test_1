@@ -154,14 +154,17 @@ body {
 			height: 150px;
 			background: url(https://upload.cc/i1/2021/10/18/vT8UIK.png) no-repeat;
 		}
+	}
 
-		.menu {
-			flex-direction: column;
-			width: 100%;
-			
-			li {
-				width: 90%;
-				margin: 5px auto;
+	.menu {
+		flex-direction: column;
+		width: 100%;
+		
+		li {
+			width: 90%;
+			margin: 5px auto;
+
+			a {
 				border-radius: 5px;
 			}
 		}
@@ -172,6 +175,12 @@ body {
 		
 		.content, .banner {
 			border: none;
+		}
+
+		.banner {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
 		}
 	}
 }
